@@ -1,0 +1,55 @@
+a{
+    color: red;
+}
+/** Changing whole background color to lightblie**/
+body {
+    background-color: lightblue;
+  }
+  
+  
+h1, h2, h3{
+color: white;
+font-style: italic;
+}
+p {
+font-family: verdana;
+font-size: 20px;
+}
+table, th, td {
+    border: 1px solid;
+    border-color: green;
+}
+.right{
+    justify-content: right;
+}
+img{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+figure{
+    display: inline;
+}
+h1{
+    text-align: center;
+}
+/** When the curse come close to link this change its color to black and removes the underline**/
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.link{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+p{
+    font-style: italic;
+}
+/** This changes the font of the text in the footer in all types and aligns it in centre**/
+footer{
+    font-size: large;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+}
